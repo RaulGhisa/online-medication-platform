@@ -5,10 +5,10 @@ Monitoring devices record and send patients' data to a RabbitMQ broker which are
 The frontend is developed in ReactJS and Websockets to notify patients when to take their meds.
 
 ## System Architecture  
-![System Architecture](images/system_architecture.png)
+![System Architecture](images/system_architecture.jpg)
 
 ## Deployment Diagram  
-![Deployement Diagram](images/deployment_diagram.png)
+![Deployement Diagram](images/deployment_diagram.jpg)
 
 ## Database Design
 ![Database Design](images/db_design.png)
