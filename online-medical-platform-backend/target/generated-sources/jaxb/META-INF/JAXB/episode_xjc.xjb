@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.3.2 
+Vedere <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2019.11.23 alle 11:20:49 PM EET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="doctorSoap">
+    <schemaBindings map="false">
+      <package name="doctorsoap"/>
+    </schemaBindings>
+    <bindings scd="tns:ActivityHistory">
+      <class ref="doctorsoap.ActivityHistory"/>
+    </bindings>
+    <bindings scd="tns:ActivityRequest">
+      <class ref="doctorsoap.ActivityRequest"/>
+    </bindings>
+  </bindings>
+</bindings>
+

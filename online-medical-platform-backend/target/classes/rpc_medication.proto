@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "com.example.springdemo.rpc";
+
+service Medication {
+	rpc GetMedicationPlan (Patient) returns (stream Med);
+	rpc SendMedicationTaken (Taken) returns (Empty);
+}
+	message Patient {
+		int64 patientId = 1;
+	}
+	
+	message Med {
+		string medName = 1;
+		string startHour = 2;
+		string endHour = 3;
+	}
+	
+	message Taken {
+		string medName = 1;
+		int64 patientId = 2;
+		bool isTaken = 3;
+	}
+	
+	message Empty {}

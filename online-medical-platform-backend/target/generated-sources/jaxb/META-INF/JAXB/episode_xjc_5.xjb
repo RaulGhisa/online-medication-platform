@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.3.2 
+Vedere <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2019.11.26 alle 09:43:59 PM EET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="activity">
+    <schemaBindings map="false">
+      <package name="activity"/>
+    </schemaBindings>
+    <bindings scd="tns:ActivityHistory">
+      <class ref="activity.ActivityHistory"/>
+    </bindings>
+    <bindings scd="tns:ActivityRequest">
+      <class ref="activity.ActivityRequest"/>
+    </bindings>
+    <bindings scd="tns:RecommendationRequest">
+      <class ref="activity.RecommendationRequest"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="medication">
+    <schemaBindings map="false">
+      <package name="medication"/>
+    </schemaBindings>
+    <bindings scd="tns:MedicationHistory">
+      <class ref="medication.MedicationHistory"/>
+    </bindings>
+    <bindings scd="tns:MedicationRequest">
+      <class ref="medication.MedicationRequest"/>
+    </bindings>
+  </bindings>
+</bindings>
+

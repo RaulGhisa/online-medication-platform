@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="medication"
+            elementFormDefault="qualified">
+    <xsd:element name="MedicationHistory">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="patientId" type="xsd:long"/>
+                <xsd:element name="Medication" minOccurs="0" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="medId" type="xsd:long"/>
+                            <xsd:element name="medName" type="xsd:string"/>
+                            <xsd:element name="date" type="xsd:string"/>
+                            <xsd:element name="taken" type="xsd:boolean"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="MedicationRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="patientId" type="xsd:long"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+
+</xsd:schema>

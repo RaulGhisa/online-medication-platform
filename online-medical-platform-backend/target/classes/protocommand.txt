@@ -1,0 +1,1 @@
+protoc --java_out=H:\INFO\JAVA\DS2019\ds2019_30442_ghisa_raul_assignment_1\spring-boot-demo\src\main\java --grpc-java_out=H:\INFO\JAVA\DS2019\ds2019_30442_ghisa_raul_assignment_1\spring-boot-demo\src\main\java rpc_medication.proto

@@ -1,0 +1,247 @@
+# Created at 2019-11-26T21:44:08.170
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-26T21:44:09.146
+Unexpected IOException with stream: 2019-11-26 21:44:09.145  INFO 13584 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2019-11-26T21:44:09.252
+Unexpected IOException with stream: 2019-11-26 21:44:09.251  INFO 13584 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 10 repository interfaces.
+
+
+# Created at 2019-11-26T21:44:09.640
+Unexpected IOException with stream: 2019-11-26 21:44:09.640  INFO 13584 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1bd5719a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-11-26T21:44:09.686
+Unexpected IOException with stream: 2019-11-26 21:44:09.686  INFO 13584 --- [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+
+
+# Created at 2019-11-26T21:44:09.781
+Unexpected IOException with stream: 2019-11-26 21:44:09.781  INFO 13584 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$773dac9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-11-26T21:44:09.812
+Unexpected IOException with stream: 2019-11-26 21:44:09.811  INFO 13584 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f6bdf9cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-11-26T21:44:10.435
+Unexpected IOException with stream: 2019-11-26 21:44:10.435  INFO 13584 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+
+
+# Created at 2019-11-26T21:44:10.460
+Unexpected IOException with stream: 2019-11-26 21:44:10.460  INFO 13584 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+
+
+# Created at 2019-11-26T21:44:10.461
+Unexpected IOException with stream: 2019-11-26 21:44:10.461  INFO 13584 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+
+
+# Created at 2019-11-26T21:44:10.591
+Unexpected IOException with stream: 2019-11-26 21:44:10.590  INFO 13584 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+
+
+# Created at 2019-11-26T21:44:10.592
+Unexpected IOException with stream: 2019-11-26 21:44:10.592  INFO 13584 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2299 ms
+
+
+# Created at 2019-11-26T21:44:10.822
+Unexpected IOException with stream: 2019-11-26 21:44:10.821  INFO 13584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2019-11-26T21:44:10.975
+Unexpected IOException with stream: 2019-11-26 21:44:10.975  INFO 13584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2019-11-26T21:44:11.046
+Unexpected IOException with stream: 2019-11-26 21:44:11.046  INFO 13584 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+
+# Created at 2019-11-26T21:44:11.117
+Unexpected IOException with stream: 2019-11-26 21:44:11.116  INFO 13584 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+
+
+# Created at 2019-11-26T21:44:11.119
+Unexpected IOException with stream: 2019-11-26 21:44:11.119  INFO 13584 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+
+
+# Created at 2019-11-26T21:44:11.268
+Unexpected IOException with stream: 2019-11-26 21:44:11.267  INFO 13584 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+
+
+# Created at 2019-11-26T21:44:11.412
+Unexpected IOException with stream: 2019-11-26 21:44:11.411  INFO 13584 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+# Created at 2019-11-26T21:44:12.265
+Unexpected IOException with stream: 2019-11-26 21:44:12.265 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table caregiver (id bigint not null, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.273
+Unexpected IOException with stream: 2019-11-26 21:44:12.273 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table doctor (id bigint not null, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.276
+Unexpected IOException with stream: 2019-11-26 21:44:12.275 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table intake_interval (id bigint not null auto_increment, end_date varchar(255), recommendation varchar(255), start_date varchar(255), taken bit, taken_hour varchar(255), med_id bigint not null, medication_id bigint not null, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.281
+Unexpected IOException with stream: 2019-11-26 21:44:12.280 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table med (id bigint not null auto_increment, dosage varchar(255), name varchar(255) not null, side_effect varchar(255), primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.283
+Unexpected IOException with stream: 2019-11-26 21:44:12.282 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table medical_record (id bigint not null auto_increment, disease varchar(255), doctor varchar(255), hospital varchar(255), patient_id bigint not null, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.284
+Unexpected IOException with stream: 2019-11-26 21:44:12.284 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table medication (id bigint not null auto_increment, end_date varchar(255), start_date varchar(255), patient_id bigint, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.286
+Unexpected IOException with stream: 2019-11-26 21:44:12.286 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table monitored_data (id integer not null auto_increment, activity varchar(255), end_time bigint, is_problem bit, start_time bigint, patient_id bigint not null, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.288
+Unexpected IOException with stream: 2019-11-26 21:44:12.287 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table patient (id bigint not null, caregiver_id bigint, primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.289
+Unexpected IOException with stream: 2019-11-26 21:44:12.289 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table person (id integer not null auto_increment, address varchar(255), email varchar(200) not null, iban varchar(255), name varchar(100), primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.291
+Unexpected IOException with stream: 2019-11-26 21:44:12.291 DEBUG 13584 --- [           main] org.hibernate.SQL                        : create table user (id bigint not null, address varchar(255), birth_date varchar(255), email varchar(255) not null, first_name varchar(255), gender varchar(255), last_name varchar(255), password varchar(255), type varchar(255), primary key (id)) engine=InnoDB
+
+
+# Created at 2019-11-26T21:44:12.293
+Unexpected IOException with stream: 2019-11-26 21:44:12.293 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table med drop index UK_fx6cwh37w9f49difcvtx5gcf8
+
+
+# Created at 2019-11-26T21:44:12.294
+Unexpected IOException with stream: 2019-11-26 21:44:12.294 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table med add constraint UK_fx6cwh37w9f49difcvtx5gcf8 unique (name)
+
+
+# Created at 2019-11-26T21:44:12.298
+Unexpected IOException with stream: 2019-11-26 21:44:12.297 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table user drop index UK_ob8kqyqqgmefl0aco34akdtpe
+
+
+# Created at 2019-11-26T21:44:12.299
+Unexpected IOException with stream: 2019-11-26 21:44:12.298 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table user add constraint UK_ob8kqyqqgmefl0aco34akdtpe unique (email)
+
+
+# Created at 2019-11-26T21:44:12.300
+Unexpected IOException with stream: 2019-11-26 21:44:12.300 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table caregiver add constraint FKckqvmhqppl2ixchdtm9mc5vkh foreign key (id) references user (id)
+
+
+# Created at 2019-11-26T21:44:12.303
+Unexpected IOException with stream: 2019-11-26 21:44:12.302 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table doctor add constraint FKisrj7dti092bxya7p8jt7acs7 foreign key (id) references user (id)
+
+
+# Created at 2019-11-26T21:44:12.305
+Unexpected IOException with stream: 2019-11-26 21:44:12.304 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table intake_interval add constraint FKo285axjpbhrplmw1dtiwof91e foreign key (med_id) references med (id)
+
+
+# Created at 2019-11-26T21:44:12.307
+Unexpected IOException with stream: 2019-11-26 21:44:12.307 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table intake_interval add constraint FK55xq2jdv0mp3ogbaxtyegk35v foreign key (medication_id) references medication (id)
+
+
+# Created at 2019-11-26T21:44:12.309
+Unexpected IOException with stream: 2019-11-26 21:44:12.309 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table medical_record add constraint FKt0lf3feuiurr73bpln2n6x0v foreign key (patient_id) references patient (id)
+
+
+# Created at 2019-11-26T21:44:12.312
+Unexpected IOException with stream: 2019-11-26 21:44:12.311 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table medication add constraint FKt1rgak6o7ydl3dm8fkja3q0pt foreign key (patient_id) references patient (id)
+
+
+# Created at 2019-11-26T21:44:12.314
+Unexpected IOException with stream: 2019-11-26 21:44:12.313 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table monitored_data add constraint FKf0lo3m51yp4pvsr2tsj9rbnvw foreign key (patient_id) references patient (id)
+
+
+# Created at 2019-11-26T21:44:12.316
+Unexpected IOException with stream: 2019-11-26 21:44:12.315 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table patient add constraint FKrtror6nlor0yjjgcq1csgcp3d foreign key (caregiver_id) references caregiver (id)
+
+
+# Created at 2019-11-26T21:44:12.318
+Unexpected IOException with stream: 2019-11-26 21:44:12.317 DEBUG 13584 --- [           main] org.hibernate.SQL                        : alter table patient add constraint FKbhxnsr0osyqj98qqcexec5edv foreign key (id) references user (id)
+
+
+# Created at 2019-11-26T21:44:12.321
+Unexpected IOException with stream: 2019-11-26 21:44:12.321  INFO 13584 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2019-11-26T21:44:12.980
+Unexpected IOException with stream: 2019-11-26 21:44:12.980  INFO 13584 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+
+
+# Created at 2019-11-26T21:44:12.991
+Unexpected IOException with stream: 2019-11-26 21:44:12.991  INFO 13584 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+
+
+# Created at 2019-11-26T21:44:13.176
+Unexpected IOException with stream: 2019-11-26 21:44:13.176  INFO 13584 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+
+
+# Created at 2019-11-26T21:44:13.760
+Unexpected IOException with stream: 2019-11-26 21:44:13.759  WARN 13584 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2019-11-26T21:44:14.104
+Unexpected IOException with stream: 2019-11-26 21:44:14.104  INFO 13584 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+
+
+# Created at 2019-11-26T21:44:14.161
+Unexpected IOException with stream: 2019-11-26 21:44:14.160  INFO 13584 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+
+
+# Created at 2019-11-26T21:44:14.931
+Unexpected IOException with stream: 2019-11-26 21:44:14.931  INFO 13584 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2019-11-26T21:44:14.932
+Unexpected IOException with stream: 2019-11-26 21:44:14.932  INFO 13584 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2019-11-26T21:44:14.948
+Unexpected IOException with stream: 2019-11-26 21:44:14.948  INFO 13584 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+
+
+# Created at 2019-11-26T21:44:15.022
+Unexpected IOException with stream: 2019-11-26 21:44:15.022  INFO 13584 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+
+
+# Created at 2019-11-26T21:44:15.024
+Unexpected IOException with stream: 2019-11-26 21:44:15.023  INFO 13584 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+
+
+# Created at 2019-11-26T21:44:15.025
+Unexpected IOException with stream: 2019-11-26 21:44:15.024  INFO 13584 --- [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+
+
+# Created at 2019-11-26T21:44:15.027
+Unexpected IOException with stream: 2019-11-26 21:44:15.027  INFO 13584 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-11-26T21:44:15.100
+Unexpected IOException with stream: 2019-11-26 21:44:15.100  INFO 13584 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#11028d7:0/SimpleConnection@1efe064 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57047]
+
+
+# Created at 2019-11-26T21:44:15.175
+Unexpected IOException with stream: 2019-11-26 21:44:15.175  INFO 13584 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57048 (http) with context path ''
+
+
+# Created at 2019-11-26T21:44:15.178
+Unexpected IOException with stream: 2019-11-26 21:44:15.178  INFO 13584 --- [           main] c.e.s.services.PersonServiceTest         : Started PersonServiceTest in 7.199 seconds (JVM running for 7.915)
+
+
+# Created at 2019-11-26T21:44:16.090
+Unexpected IOException with stream: Server started on 8081
+
+

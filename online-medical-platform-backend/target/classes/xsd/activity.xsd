@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="activity"
+            elementFormDefault="qualified">
+    <xsd:element name="ActivityHistory">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="patientId" type="xsd:long"/>
+                <xsd:element name="Activity" minOccurs="0" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="activityId" type="xsd:long"/>
+                            <xsd:element name="activity" type="xsd:string"/>
+                            <xsd:element name="startTime" type="xsd:string"/>
+                            <xsd:element name="endTime" type="xsd:string"/>
+                            <xsd:element name="isProblem" type="xsd:boolean"/>
+                            <xsd:element name="recommendation" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="ActivityRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="patientId" type="xsd:long"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="RecommendationRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="monitoredDataId" type="xsd:long"/>
+                <xsd:element name="recommendation" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
