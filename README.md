@@ -13,4 +13,4 @@ The frontend is developed in ReactJS, Websockets to notify patients when to take
 ![Deployement Diagram](images/deployment_diagram.jpg)
 
 ## Database Design
-![Database Design](images/db_design.png | width=100)
+![Database Design](images/db_design.png)
