@@ -1,5 +1,5 @@
 # Online Medication Platform  
-The frontend and the backend of an online medication platform that allows doctors to monitor patients in real-time and prescribe meds.  
+The frontend and the backend of an online medication platform that allows doctors to monitor patients in real-time and prescribe medication.  
 
 ## Description
 The backend is implemented in Java with Spring Boot adhering to OOP principles. 
